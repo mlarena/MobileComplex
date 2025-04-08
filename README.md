@@ -1,4 +1,16 @@
 # MobileComplex
+### Запуск приложени
+
+1. Выполните
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+2. Запуск
+    ```sh
+    python .\webcam_viewer.py
+    ```
+
 Для создания исполняемого файла из Python-скрипта для Windows и Linux можно использовать инструмент `PyInstaller`. `PyInstaller` позволяет упаковать Python-скрипт и все его зависимости в один исполняемый файл. Вот пошаговая инструкция:
 
 ### Установка PyInstaller
