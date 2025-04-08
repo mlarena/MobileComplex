@@ -1,0 +1,8 @@
+# Игнорировать содержимое папки result_images
+result_images/
+
+# Игнорировать содержимое папки result
+result/
+
+# Игнорировать содержимое папки neural_network_models
+neural_network_models/
