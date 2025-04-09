@@ -4,6 +4,7 @@
 1. Выполните
     ```sh
     pip install -r requirements.txt
+    sudo apt-get install python3-tk
     ```
 
 2. Запуск

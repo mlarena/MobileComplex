@@ -4,7 +4,7 @@ from ultralytics import YOLO
 # Загрузка предварительно обученной модели YOLOv8
 model = YOLO('neural_network_models/yolov8n.pt')
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(2)
 
 # Чтение и обработка каждого кадра видео
 while True:

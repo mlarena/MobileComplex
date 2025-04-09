@@ -72,7 +72,7 @@ class WebcamApp:
         self.window.protocol("WM_DELETE_WINDOW", self.on_closing)
         
     def init_camera(self):
-        self.vid = cv2.VideoCapture(0)
+        self.vid = cv2.VideoCapture(2)
         if not self.vid.isOpened():
             self.info_label.config(text="Ошибка: Не удалось подключиться к веб-камере")
             self.vid = None
